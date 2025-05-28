@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.mavenproject42;
 
-/**
- *
- * @author ABC
- */
 public class Mavenproject42 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        School mySchool = new School("ABC School");
+        mySchool.addStudent("Jhon Smith","Student01");
+        mySchool.addStudent("OliviaWilson","Student02");
+        mySchool.displaySchool();
     }
 }
